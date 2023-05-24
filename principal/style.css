@@ -1,0 +1,114 @@
+body{
+  margin: 10px;
+  box-sizing: border-box;
+  margin-top: 0;  
+}
+
+.container {
+  line-height: 150%;
+}
+h2 {
+  margin-top: 0;
+  font-weight: 900;
+  font-size: 30px;
+  color: #060606;
+  text-align: center;
+  font-family: 'calibri', cursive;
+}
+
+.header {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+
+  
+}
+
+.header h1 {
+  color: #222222;
+  font-size: 100px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.content {
+  margin-left: 115px;
+  margin-right: 115px;
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid  #d4d4d4 ;
+  border-top: 1px solid #d4d4d4;
+  padding: 1em;
+  overflow: hidden;
+}
+table {
+  font-family: calibri, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 30px 0;
+  font-size: 17px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align:left;
+  color: #333;
+}
+.destaquePonto{
+  font-size:x-large;
+  text-align:center;
+
+}
+
+tr:nth-child(1) {
+  background-color: rgb(4, 172, 18);
+  color: #333;
+  font-size: 20px;
+}
+
+tr td i.fas {
+  display: block;
+  font-size: 35px;
+  text-align: center;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(4, 172, 18);
+}
+
+ul.menu li {
+  float: left;
+}
+
+ul.menu li a {
+  font-size:x-large;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.menu li a:hover {
+  background-color: #ddd;
+}
